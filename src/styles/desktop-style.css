@@ -1,0 +1,32 @@
+@media (min-width: 774px) {
+    body {
+        font-family: var(--font-inter-);
+        color: black;
+        margin: auto;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+
+    }
+    .container {
+        margin: 10px;
+        border-radius: 16px;
+        padding: 12px;
+    }
+    #table {
+        background-color: blanchedalmond;
+        width: 70vw;
+        height: 90vh;
+    }
+    #form {
+        background-color: aqua;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        padding: 10px;
+    }
+
+}
